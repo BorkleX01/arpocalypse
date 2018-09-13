@@ -1,0 +1,109 @@
+.app-body {
+    padding-top: 6vh;
+}
+
+.keyboard {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.keyboard-outer {
+    width: 99%;
+}
+.keyboard > * {
+    padding: 0px 0px;
+    position: relative;
+
+}
+.messages {
+    margin: auto 10px;
+}
+.key {
+    margin-top: 0px;
+}
+
+.key-inner:hover{
+    background: teal;
+    color: white;
+}
+
+.key-inner {
+    border: 0.5px solid black;
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px;
+    background: white;
+}
+.instruments {
+    width: 100%;
+}
+.rhs-tabs{
+    float: right;
+}
+
+.lhs-tabs{
+    float: left;
+}
+
+.white-key {
+    margin-left:  0px;
+    margin-right:  0px;
+    width: 4.6%;
+    height: 200px;
+    transition: all 0.5s;
+}
+.black-key {
+    width: 4.6%;
+    height: 130px;
+    margin-left:  -2.3%;
+    margin-right:  -2.3%;
+}
+
+.squares {
+    width: 50px;
+    height: 50px;
+    margin-left:  0px;
+    margin-right:  0px;
+}
+
+.logarithmic{
+    padding : 0px;
+    height: 7vw;
+    margin-left:  0px;
+    margin-right:  0px;
+}
+
+.octave {
+    width: 8.33%;
+}
+
+.arp {
+    border: 1px solid blue;
+}
+
+.step {
+    border: 1px solid red;
+}
+
+.arp.note-on {
+    background-color: hsla(240, 50%, 50%, 0.5);
+}
+
+.step.note-on {
+    background-color: hsla(0, 50%, 50%, 0.5);
+}
+
+.press > .key-inner {
+    background-color: black;
+}
+
+.note-on > .key-inner {
+    background: yellow;
+    color: black
+}
+
+.active > .key-inner {
+    border: 2px solid red;
+}

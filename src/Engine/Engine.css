@@ -1,0 +1,35 @@
+
+.engine {
+    border: 1px solid black;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 1vw;
+    margin: 0 auto;
+}
+
+.engine-panel {
+
+}
+
+.panel {
+    margin: 1vh auto;
+    font-size: 0.75em;
+    padding: 5px;
+    border: 0.5px solid black;
+    display: flex;
+    flex-flow: row 
+}
+
+button {
+    width: 100px;
+    height: 20px;
+    margin: auto 0;
+}
+.control {
+    flex-basis: 25%
+}
+.input {
+}
+
+.slider {
+}
